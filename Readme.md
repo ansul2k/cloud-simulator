@@ -8,7 +8,7 @@ In this homework, we aim to implement CloudSim Plus framework to create a Cloud 
 
 ### What is CloudSim Plus?
 
-CloudSim Plus is a modern, up-to-date, full-featured and fully documented simulation framework. It’s easy to use and extend, enabling modeling, simulation, and experimentation of Cloud computing infrastructures and application services. It allows developers to focus on specific system design issues to be investigated, without concerning the low-level details related to Cloud-based infrastructures and services.
+CloudSim Plus is a modern, up-to-date, full-featured and fully documented simulation framework. Itâ€™s easy to use and extend, enabling modeling, simulation, and experimentation of Cloud computing infrastructures and application services. It allows developers to focus on specific system design issues to be investigated, without concerning the low-level details related to Cloud-based infrastructures and services.
 
 ## Instructions to run the Simulation
 
@@ -94,14 +94,23 @@ sbt run
 
 ### Output
     
-    Output with Allocation Policy as BestFit with Number of VM PEs = 1
-    ![Alt text](images/BestFit.jpg)
+-Output with Cloudlet Allocation Policy as BestFit with Number of VM PEs = 1
+![Best Fit](https://raw.githubusercontent.com/ansul2k/cloud-simulator/main/img/BestFit.jpg)
     
-    Output with Allocation Policy as WorstFit with Number of VM PEs = 1
-    ![Alt text](images/WorstFit.jpg)
+-Output with Cloudlet Allocation Policy as WorstFit with Number of VM PEs = 1
+![Worst Fit](https://raw.githubusercontent.com/ansul2k/cloud-simulator/main/img/WorstFit.jpg)
     
-    Output with Allocation Policy as FirstFit with Number of VM PEs = 1
-    ![Alt text](images/FirstFit.jpg)
+-Output with Cloudlet Allocation Policy as FirstFit with Number of VM PEs = 1
+![First Fit](https://raw.githubusercontent.com/ansul2k/cloud-simulator/main/img/FirstFit.jpg)
+
+-Output with Cloudlet Allocation Policy as BestFit with Number of VM PEs = 8
+![Best Fit](https://raw.githubusercontent.com/ansul2k/cloud-simulator/main/img/BestFit8.jpg)
+    
+-Output with Cloudlet Allocation Policy as WorstFit with Number of VM PEs = 8
+![Worst Fit](https://raw.githubusercontent.com/ansul2k/cloud-simulator/main/img/WorstFit8.jpg)
+    
+-Output with Cloudlet Allocation Policy as FirstFit with Number of VM PEs = 8
+![First Fit](https://raw.githubusercontent.com/ansul2k/cloud-simulator/main/img/FirstFit8.jpg)
     
     
     
