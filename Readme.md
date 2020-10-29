@@ -126,6 +126,6 @@ sbt run
     BestFit: The execution time is 51.83 s
     WorstFit: The execution time is 39.52 s
     FirstFit: The executing time is 40.79 s
-
-### Improvements
+    
+    Also there cost varies vastly as the cost also depends on the execution time which can also be seen in the above images
 
